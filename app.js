@@ -44,3 +44,11 @@ select.forEach((item, index) => {
 }); */
 
 /*----------------------------------------------------------*/
+// Style Manupulation
+/* let links = document.querySelectorAll(".box a");
+for (let i = 0; i < links.length; i++) {
+  links[i].style.color = "red";
+  console.log("Color Changed of index " + i);
+} */
+
+/*----------------------------------------------------------*/
