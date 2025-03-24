@@ -52,3 +52,14 @@ for (let i = 0; i < links.length; i++) {
 } */
 
 /*----------------------------------------------------------*/
+// Adding 5 Buttons to the Page and Alerting the Button Number
+/* for (let i = 5; i > 0; i--) {
+  let button = document.createElement("button");
+  button.innerHTML = "Click Me " + i;
+  button.style.color = "red";
+  document.body.prepend(button);
+  button.addEventListener("click", (e) => {
+    alert(`Button ${i} Clicked`);
+    console.log(`Button ${i} Clicked`);
+  });
+} */
