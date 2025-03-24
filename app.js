@@ -94,3 +94,17 @@ function bgColor() {
   document.body.style.backgroundColor = randomColor();
 } */
 /*----------------------------------------------------------*/
+// Changing the Background Color of Items Clicked
+/* let h1 = document.querySelector("h1");
+let img = document.querySelector("img");
+let h2 = document.querySelector("h2");
+let p = document.querySelector("p");
+
+h1.addEventListener("click", clickEvent);
+img.addEventListener("click", clickEvent);
+h2.addEventListener("click", clickEvent);
+p.addEventListener("click", clickEvent);
+function clickEvent() {
+  this.style.backgroundColor = "yellow";
+  console.log(this.innerText);
+} */
