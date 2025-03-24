@@ -108,3 +108,41 @@ function clickEvent() {
   this.style.backgroundColor = "yellow";
   console.log(this.innerText);
 } */
+
+/*----------------------------------------------------------*/
+
+/* let inp = document.createElement("input");
+inp.type = "text";
+document.body.prepend(inp);
+let btn = document.createElement("button");
+btn.innerText = "Click Me";
+document.body.prepend(btn);
+
+btn.addEventListener("click", (e) => {
+  console.log(e);
+  let newDiv = document.createElement("div");
+  newDiv.style.backgroundColor = "red";
+  newDiv.style.width = "200px";
+  newDiv.style.height = "200px";
+  newDiv.style.position = "absolute";
+  newDiv.style.top = Math.random() * (window.innerHeight - 200) + "px";
+  newDiv.style.left = Math.random() * (window.innerWidth - 200) + "px";
+  document.body.appendChild(newDiv);
+});
+
+inp.addEventListener("keydown", (e) => {
+  console.log(e);
+  console.log(e.key);
+  console.log(e.code);
+  console.log(e.keyCode);
+}); */
+
+/* window.addEventListener("resize", () => {
+  console.log(window.innerWidth, window.innerHeight);
+});
+window.addEventListener("scroll", () => {
+  console.log(window.scrollY);
+}); */
+
+/*----------------------------------------------------------*/
+// Event Bubbling
