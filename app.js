@@ -63,3 +63,25 @@ for (let i = 0; i < links.length; i++) {
     console.log(`Button ${i} Clicked`);
   });
 } */
+
+/*----------------------------------------------------------*/
+// Changing the Background Color of the Page
+/* let button = document.createElement("button");
+button.innerText = "Change Background Color";
+document.body.prepend(button);
+button.addEventListener("click", () => bgColor());
+
+function randomColor() {
+  let red = Math.floor(Math.random() * 255);
+  let green = Math.floor(Math.random() * 255);
+  let blue = Math.floor(Math.random() * 255);
+  let color = `rgb(${red},${green},${blue})`;
+  console.log(color);
+  return color;
+}
+
+function bgColor() {
+  document.body.style.backgroundColor = randomColor();
+  console.log("Color Changed");
+} */
+/*----------------------------------------------------------*/
