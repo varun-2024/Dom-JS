@@ -66,10 +66,15 @@ for (let i = 0; i < links.length; i++) {
 
 /*----------------------------------------------------------*/
 // Changing the Background Color of the Page
-/* let button = document.createElement("button");
+/* let p = document.createElement("p");
+document.body.prepend(p);
+let button = document.createElement("button");
 button.innerText = "Change Background Color";
 document.body.prepend(button);
-button.addEventListener("click", () => bgColor());
+button.addEventListener("click", () => {
+  bgColor();
+  Value();
+});
 
 function randomColor() {
   let red = Math.floor(Math.random() * 255);
@@ -80,8 +85,12 @@ function randomColor() {
   return color;
 }
 
+function Value() {
+  p.innerText = " Color Changed" + ` ${randomColor()}`;
+  console.log("Color Changed");
+}
+
 function bgColor() {
   document.body.style.backgroundColor = randomColor();
-  console.log("Color Changed");
 } */
 /*----------------------------------------------------------*/
