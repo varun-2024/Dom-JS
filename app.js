@@ -37,7 +37,7 @@ select.forEach((item, index) => {
 
 /*----------------------------------------------------------*/
 /* let select = document.querySelectorAll(".boxLink");
-
+console.dir(select);
 select.forEach((item, index) => {
   item.style.border = "5px solid red";
   console.log("Color Changed of index " + index);
