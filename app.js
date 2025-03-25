@@ -158,6 +158,7 @@ form.addEventListener("submit", (e) => {
 }); */
 
 /*----------------------------------------------------------*/
+// Extracting Input Value
 /* let form = document.querySelector("form");
 form.addEventListener("submit", (e) => {
   e.preventDefault();
