@@ -170,14 +170,19 @@ form.addEventListener("submit", (e) => {
   alert(`Hi ${user.value} Your Password is ${pass.value}`);
 }); */
 /*----------------------------------------------------------*/
-
-let form = document.querySelector("form");
-form.addEventListener("submit", (e) => {
+// Extracting Value from Form
+/* let form = document.querySelector("form");
+form.addEventListener("submit", function (e) {
   e.preventDefault();
-  console.dir(event);
-  let user = document.querySelector("#user");
-  let pass = document.querySelector("#password");
+  let user = this.elements[0];
+  let pass = this.elements[1];
+
   console.log(user.value);
   console.log(pass.value);
-  alert(`Hi ${user.value} Your Password is ${pass.value}`);
-});
+
+  for (el of form.elements) {
+    console.dir(el);
+  }
+}); */
+
+/*----------------------------------------------------------*/
