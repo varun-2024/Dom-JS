@@ -145,4 +145,14 @@ window.addEventListener("scroll", () => {
 }); */
 
 /*----------------------------------------------------------*/
-// Event Bubbling
+// Event Prevent Default
+let formInput = document.querySelector("input");
+let form = document.querySelector("form");
+let ul = document.querySelector("ul");
+form.addEventListener("submit", (e) => {
+  e.preventDefault();
+  let li = document.createElement("li");
+  li.innerText = formInput.value;
+  ul.appendChild(li);
+  formInput.value = "";
+});
