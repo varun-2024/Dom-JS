@@ -146,7 +146,7 @@ window.addEventListener("scroll", () => {
 
 /*----------------------------------------------------------*/
 // Event Prevent Default
-let formInput = document.querySelector("input");
+/* let formInput = document.querySelector("input");
 let form = document.querySelector("form");
 let ul = document.querySelector("ul");
 form.addEventListener("submit", (e) => {
@@ -155,4 +155,28 @@ form.addEventListener("submit", (e) => {
   li.innerText = formInput.value;
   ul.appendChild(li);
   formInput.value = "";
+}); */
+
+/*----------------------------------------------------------*/
+/* let form = document.querySelector("form");
+form.addEventListener("submit", (e) => {
+  e.preventDefault();
+  console.dir(event);
+  let user = document.querySelector("#user");
+  let pass = document.querySelector("#password");
+  console.log(user.value);
+  console.log(pass.value);
+  alert(`Hi ${user.value} Your Password is ${pass.value}`);
+}); */
+/*----------------------------------------------------------*/
+
+let form = document.querySelector("form");
+form.addEventListener("submit", (e) => {
+  e.preventDefault();
+  console.dir(event);
+  let user = document.querySelector("#user");
+  let pass = document.querySelector("#password");
+  console.log(user.value);
+  console.log(pass.value);
+  alert(`Hi ${user.value} Your Password is ${pass.value}`);
 });
