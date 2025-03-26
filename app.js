@@ -181,8 +181,40 @@ form.addEventListener("submit", function (e) {
   console.log(pass.value);
 
   for (el of form.elements) {
-    console.dir(el);
+    console.dir(el.value);
   }
 }); */
 
+/*----------------------------------------------------------*/
+// Extracting Value from Form Input and Change Event
+/* let form = document.querySelector("form");
+let user = document.querySelector("#user");
+let pass = document.querySelector("#password");
+form.addEventListener("submit", function (e) {
+  e.preventDefault();
+  console.log(`This is User.Value = ${user.value}`);
+  console.log(`This is Pass.Value = ${pass.value}`);
+  //console.log(user.value);
+  //console.log(pass.value);
+  console.log("Next Line: Form.Elements.Value:");
+  for (el of form.elements) {
+    console.dir(el.value);
+  }
+});
+
+user.addEventListener("change", function () {
+  //console.log(this.value);
+  console.log(`Final Value ${this.value}`);
+});
+pass.addEventListener("change", function () {
+  //console.log(this.value);
+  console.log(`Final Value ${this.value}`);
+});
+
+user.addEventListener("input", function () {
+  console.log(this.value);
+});
+pass.addEventListener("input", function () {
+  console.log(this.value);
+}); */
 /*----------------------------------------------------------*/
